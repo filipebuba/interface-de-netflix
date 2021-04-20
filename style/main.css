@@ -10,9 +10,12 @@
     box-sizing: border-box;
 }
 
+/* Elementos Basicas */
+
 body {
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
+    color: white;
 }
 
 
@@ -38,4 +41,70 @@ header nav a {
 
 header nav a:hover{
     color: #fff;
+}
+
+/* Filme pricipal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url("../img/barrulho.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .description {
+    margin-bottom: 40px;
+    color: rgb(207, 210, 30);
+}
+
+.filme-principal .title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color:rgba(0,0,0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+   height: 100%; 
+   width: 100%;
+   display: block;
+}
+
+.corrocel-filmes {
+    margin-top: 100px;
 }
