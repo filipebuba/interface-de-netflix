@@ -47,7 +47,8 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url("../img/harry2.jpeg");
+    background: linear-gradient(rgba(0,0,0, .50),
+     rgba(0,0,0, .50)100%), url("../capaopp2.jpeg");
     
     height: 400px;
     background-size: cover;
@@ -110,4 +111,12 @@ header nav a:hover{
 
 .corrocel-filmes {
     margin-top: 100px;
+}
+
+
+.filme-principal .vipp{
+    margin-left: 300px;
+    width: 120px;
+ 
+    
 }

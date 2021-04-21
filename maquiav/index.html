@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Netflix</title>
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/respos.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+<body>
+ <header>
+     <div class="container">
+         <h2 class="logo">BOOKFLIX</h2>
+         <nav>
+             <a href="#">Início </a><a href="#">Poesias </a><a href="#">Romances </a><a href="#">Livros Acadêmicos</a>
+            <a href="#">Contos e Anedotas </a>
+         </nav>
+     </div>
+ </header>
+ 
+ <main>
+     <div class="filme-principal">
+            <h3 class="title">BARULHO CALADO</h3>
+            <p class="description">Quando virou o envelope, com a mão trêmula, Harry viu um lacre de cera púrpura com um brasão; um leão, uma águia, um
+            texugo e uma cobra circulando uma grande letra "H".
+            </p>
+           
+            <div class="botoes">
+            <button role="button" class="botao" >
+                <i class="fas fa-book-reader"></i>
+                LEIA AGORA
+            </button>
+            <button role="button" class="botao">
+                <i class="fas fa-headphones-alt"></i>
+                ESCUTE
+                <iframe width="25" height="12" src="https://www.youtube.com/embed/BvI2qcH94wY" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </button>
+            <button role="button" class="botao">
+                <i class="fas fa-info"></i>
+                <a href="https://www.amazon.com.br/dp/B01LQM96G4/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" target="_blank">MAIS INFORMAÇÕES</a>
+            </button>
+            </div>
+        </div>
+     </div>
+
+ </main>
+
+ <div class="corrocel-filmes">
+     <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="box-filme" src="../img/o-pequeno.jpeg" onclick="pequeno()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/amigo1.png" onclick="amigo()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/arte1.jpeg" onclick="arte()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/como1.jpeg" onclick="como()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/enriq1.jpeg" onclick="enriq()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/hak1.jpeg" onclick="hak()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/maqui1.jpeg" onclick="maqui()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/mente1.jpeg" onclick="mente()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/pare1.jpeg" onclick="pare()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/pense1.jpeg" onclick="pense()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/psi1.jpeg" onclick="psi()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/fbi1.jpeg" onclick="fbi()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/mito1.png" onclick="mito()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/o-senhor1.jpeg" onclick="senhor()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/poder1.jpg" onclick="poder()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/repr1.jpeg" onclick="repr()" alt="">
+        </div>
+        <div class="item">
+            <img class="box-filme" src="../img/harry1.jpeg" onclick="harry()" alt="">
+        </div>
+     </div>
+ </div>
+
+<script src="https://kit.fontawesome.com/5922a798fb.js" crossorigin="anonymous"></script>
+
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+
+<script src="js/owl/main.js"></script>
+
+</body>
+</html>
