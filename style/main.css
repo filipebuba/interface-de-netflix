@@ -1,113 +1,112 @@
-
-:root{
-    --vermelha:#E50914;
-    --preta: #141414;
+:root {
+  --vermelha: #e50914;
+  --preta: #141414;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Elementos Basicas */
 
 body {
-    background-color: var(--preta);
-    font-family: 'Arial', Times, serif;
-    color: white;
+  background-color: var(--preta);
+  font-family: "Arial", Times, serif;
+  color: white;
 }
-
 
 header .container {
-   display: flex; 
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-header .logo{
-    margin-left: 5px;
-   color: var(--vermelha);
-    font-family: 'Arial Black', times;
-    font-size: 40px;
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelha);
+  font-family: "Arial Black", times;
+  font-size: 40px;
 }
 
 header nav a {
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
 }
 
-header nav a:hover{
-    color: #fff;
+header nav a:hover {
+  color: #fff;
 }
 
 /* Filme pricipal*/
 
 .filme-principal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url("../img/harry2.jpeg");
-    
-    height: 400px;
-    background-size: cover;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../reprograme/reprocap.jpeg");
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .filme-principal .description {
-    margin-bottom: 40px;
-    color: rgb(207, 210, 30);
-    margin-left: 16px;
+  margin-bottom: 40px;
+  color: rgb(207, 210, 30);
+  margin-left: 16px;
 }
 
 .filme-principal .title {
-    margin-top: 16%;
-    font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    margin-left: 16px;
+  margin-top: 16%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  margin-left: 16px;
 }
 
 .botao {
-    background-color:rgba(0,0,0, .50);
-    border: none;
-    color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
 
-    margin-left: 16px;
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
+  margin-left: 16px;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
 
-    cursor: pointer;
-    transition: .3s ease all;
+  cursor: pointer;
+  transition: 0.3s ease all;
 }
 
 .botao:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
-.botao i{
-    margin-right: 8px;
+.botao i {
+  margin-right: 8px;
 }
 
 .container {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .filme-principal .container {
-    width: 70%;
+  width: 70%;
 }
 
 .box-filme {
-   height: 100%; 
-   width: 100%;
-   display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 .corrocel-filmes {
-    margin-top: 100px;
+  margin-top: 100px;
 }
