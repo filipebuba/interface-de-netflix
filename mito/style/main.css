@@ -1,4 +1,8 @@
 
+/* Playfair Display */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --vermelha:#E50914;
     --preta: #141414;
@@ -14,7 +18,7 @@
 
 body {
     background-color: var(--preta);
-    font-family: 'Arial', Times, serif;
+    font-family: 'Playfair Display', Times, serif;
     color: white;
 }
 
@@ -29,7 +33,7 @@ header .container {
 header .logo{
     margin-left: 5px;
    color: var(--vermelha);
-    font-family: 'Arial Black', times;
+    font-family: 'Playfair Display', times;
     font-size: 40px;
 }
 
@@ -67,7 +71,7 @@ header nav a:hover{
 .filme-principal .title {
     margin-top: 16%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Playfair Display', Arial, sans-serif;
     margin-left: 16px;
 }
 
