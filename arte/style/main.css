@@ -32,8 +32,8 @@ header .container {
 header .logo{
     margin-left: 5px;
    color: var(--vermelha);
-    font-family: 'Arial Black', times;
-    font-size: 40px;
+    font-family: 'Playfair Display', sans-serif, times;
+    font-size: 40pArial Blackx;
 }
 
 header nav a {
@@ -70,7 +70,7 @@ header nav a:hover{
 .filme-principal .title {
     margin-top: 16%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Playfair Display', Arial, sans-serif;
     margin-left: 16px;
 }
 

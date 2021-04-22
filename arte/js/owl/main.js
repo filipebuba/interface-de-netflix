@@ -16,64 +16,64 @@ $('.owl-carousel').owlCarousel({
 })
 
 function pequeno() {
-    window.location.href = "../o-peq-prin/index1.html";
+    window.location.href = "../o-peq-prin/ope.html";
 }
 
 function amigo() {
     window.location.href = "../amigo/index.html";
 }
 function arte() {
-    window.location.href = "../arte/index.html";
+    window.location.href = "../arte/art.html";
 }
 function como() {
-    window.location.href = "../como/index.html";
+    window.location.href = "../como/com.html";
 }
 function enriq() {
-    window.location.href = "../enriqu/index.html";
+    window.location.href = "../enriqu/enr.html";
 }
 function hak() {
-    window.location.href = "../haker/index.html";
+    window.location.href = "../haker/hak.html";
 }
 
 function maqui() {
-    window.location.href = "../maquiav/index.html";
+    window.location.href = "../maquiav/maq.html";
 }
 
 function mente() {
-    window.location.href = "../mente/index.html";
+    window.location.href = "../mente/men.html";
 }
 
 function pare() {
-    window.location.href = "../pare/index.html";
+    window.location.href = "../pare/par.html";
 }
 function pense() {
-    window.location.href = "../pense/index.html";
+    window.location.href = "../pense/pen.html";
 }
 
 function psi() {
-    window.location.href = "../psiq/index.html";
+    window.location.href = "../psiq/psi.html";
 }
 
 function fbi() {
-    window.location.href = "../fbi/index.html";
+    window.location.href = "../fbi/fb.html";
 }
 
 function mito() {
-    window.location.href = "../mito/index.html";
+    window.location.href = "../mito/mit.html";
 }
 
 function senhor() {
-    window.location.href = "../o-senhor/index.html";
+    window.location.href = "../o-senhor/sen.html";
 }
 
 function poder() {
-    window.location.href = "../poder/index.html";
+    window.location.href = "../poder/pod.html";
 }
 
 function repr() {
-    window.location.href = "../reprograme/index.html";
+    window.location.href = "../reprograme/rep.html";
 }
 
 function harry() {
-    window.location.href = "../harry-pot/index.html";
+    window.location.href = "../harry-pot/har.html";
 }
